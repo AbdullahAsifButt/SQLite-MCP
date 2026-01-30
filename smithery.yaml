@@ -1,0 +1,6 @@
+name: sqlite-mcp
+version: 1.0.0
+description: An MCP server that can inspect and query SQLite databases.
+startCommand:
+  type: stdio
+  configSchema: {}
