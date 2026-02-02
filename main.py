@@ -28,7 +28,7 @@ def get_db_path(user_path: str = None) -> str:
 
 
 @mcp.tool()
-def list_tables(db_path: str = None) -> str:
+def list_tables(db_path: str | None = None) -> str:
     """
     Returns a list of all table names.
     Args:
@@ -51,7 +51,7 @@ def list_tables(db_path: str = None) -> str:
 
 
 @mcp.tool()
-def describe_table(table_name: str, db_path: str = None) -> str:
+def describe_table(table_name: str, db_path: str | None = None) -> str:
     """
     Returns the schema for a specific table.
     Args:
@@ -81,7 +81,7 @@ def describe_table(table_name: str, db_path: str = None) -> str:
 
 
 @mcp.tool()
-def run_select_query(query: str, db_path: str = None) -> str:
+def run_select_query(query: str, db_path: str | None = None) -> str:
     """
     Executes a SAFE, read-only SQL query.
     Args:
