@@ -1,7 +1,6 @@
 {
-  "name": "sqlite-mcp",
-  "description": "An MCP server to inspect and query SQLite databases.",
-  "type": "mcp-server",
-  "command": "uv",
-  "args": ["run", "main.py"]
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "AbdullahAsifButt"
+  ]
 }
